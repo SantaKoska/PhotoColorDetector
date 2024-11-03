@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Image" />
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="Image Preview" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="COLOR NAME"
+        />
+
+    <TextView
+        android:id="@+id/color_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="HEX CODE"
+        />
+
+    <TextView
+        android:id="@+id/hex_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hex Code"
+        android:textSize="18sp" />
+</LinearLayout>
